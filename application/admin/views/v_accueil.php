@@ -21,4 +21,4 @@
     </div>  <!-- Page Wrapper -->
   </div>  <!-- Wrapper -->
 
-<?php //include('v_footer.php'); $this->load->helper('html'); ?>
+<?php include('v_footer.php'); $this->load->helper('html'); ?> 

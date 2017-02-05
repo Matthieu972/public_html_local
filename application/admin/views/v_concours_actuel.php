@@ -16,6 +16,12 @@
                             Concours Actuel
                         </li>
                     </ol>
+                    <label class="text-center">
+                      Nombre de participants : 
+                    </label>
+                    <label class="text-center">
+                      Date de fin du concours :
+                    </label>
                 </div>
             </div>  <!-- Row -->
         </div>  <!-- Container-fluid -->
@@ -133,4 +139,4 @@
       </div>  <!-- Page Wrapper -->
     </div>  <!-- Wrapper -->
     
-<?php //include('v_footer.php'); $this->load->helper('html'); ?>
+<?php include('v_footer.php'); $this->load->helper('html'); ?> 

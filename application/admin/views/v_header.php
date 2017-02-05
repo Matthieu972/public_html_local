@@ -22,6 +22,9 @@
     <!-- Custom Fonts -->
     <link href="<?php echo base_url(); ?>assets/css/font-awesome.css" rel="stylesheet" type="text/css">
 
+    <!-- Custom date-container -->
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/date-container.css">    
+
     <!-- Mon style.css -->
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css" type="text/css">
 
@@ -33,6 +36,12 @@
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <!-- MARIO Admin bouton accueil -->
             <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                </button>                
                 <a class="navbar-brand" href="<?php echo base_url();?>">MARIO Admin</a>
             </div>
             <!-- Menu Mario Admin -->
@@ -76,8 +85,4 @@
 	    </div>
 	    <!-- /Barre navigation -->
         <!-- jQuery -->
-        <script src="<?php echo base_url();?>assets/js/jquery.js"></script>         <!-- A METTRE -->
-        <script src="<?php echo base_url();?>assets/js/bootstrap.min.js"></script>	    <!-- A METTRE -->
-</body>
 
-</html>

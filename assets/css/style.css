@@ -9,12 +9,6 @@
 /**
 *Concours actuel
 **/
-
-.introduction{
-	color: red; 
-}
-
-#btn_jaime
-{
-	
+.text-center{
+	text-align: center;
 }
