@@ -20,13 +20,23 @@
     <link href="<?php echo base_url(); ?>assets/css/plugins/morris.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="<?php echo base_url(); ?>assets/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo base_url(); ?>assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- Custom date-container -->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/date-container.css">    
 
     <!-- Mon style.css -->
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link href="<?php echo base_url('assets/css/sb-admin.css'); ?>" rel="stylesheet">
+
+    <!-- Personnalisation -->
+    <link href="<?php echo base_url('assets/css/admin.css'); ?>" rel="stylesheet">
+
+    <!-- TinyMCE -->
+    <script src='https://cdn.tinymce.com/4/tinymce.min.js'></script>
+
 
 </head>
 
