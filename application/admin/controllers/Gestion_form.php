@@ -44,14 +44,7 @@ class Gestion_form extends CI_Controller {
 			fputs($fjson, $data); //on écrit les données dans le json
 			fclose($fjson); //on ferme le data.json
 
-			if (isset($_POST['valider'])) {
-				redirect(base_url('Front_accueil/index/'), 'auto', NULL);
-			} elseif (isset($_POST['cgu'])) {
-				redirect(base_url('Front_cgu/index/'), 'auto', NULL);
-			} elseif (isset($_POST['rules'])) {
-				redirect(base_url('Front_rules/index/'), 'auto', NULL);
-			}
-			
+			redirect(base_url('Welcome/index/'), 'auto', NULL);
 			
 		}
 	}
